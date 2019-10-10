@@ -39,6 +39,12 @@
                  'experiment1_text': 'You better click that button...',
                  'experiment1_button':
                        '<input type="button" value="Click me, OR ELSE" onclick="ga(\'send\', \'event\', \'buttonclick\', \'stern\'); alert(\'You will be spared.\');">'
+             },
+             {
+                 name: 'variant3',
+                 'experiment1_text': 'CLick this button if you want',
+                 'experiment1_button':
+                       '<input type="button" value="Click..." onclick="ga(\'send\', \'event\', \'buttonclick\', \'neutral\'); alert(\'Whatever\');">'
              }
          ]
      });
